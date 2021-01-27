@@ -1,0 +1,32 @@
+{
+    "data": [
+        {
+            "oznaka": "EUR",
+            "vrednost": 117.5
+        },
+        {
+            "oznaka": "USD",
+            "vrednost": 105
+        },
+        {
+            "oznaka": "CHF",
+            "vrednost": 111
+        },
+        {
+            "oznaka": "RSD",
+            "vrednost": 1
+        },
+        {
+            "oznaka": "GBR",
+            "vrednost": 148
+        },
+        {
+            "oznaka": "KM",
+            "vrednost": 59
+        },
+        {
+            "oznaka": "KN",
+            "vrednost": 13
+        }
+    ]
+}
