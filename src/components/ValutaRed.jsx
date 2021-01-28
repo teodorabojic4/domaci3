@@ -1,9 +1,9 @@
 import React from 'react'
 
 export default function ValutaRed(props) {
-    console.log(props);
-    const srednji = (props.valuta.vrednost) / (props.osnova);
-    console.log(srednji);
+
+    const srednji = (props.osnova) / (props.valuta.vrednost);
+
     return (
         <tr>
             <td>

@@ -3,6 +3,7 @@ import ValutaRed from './ValutaRed';
 
 export default function SpisakValuta(props) {
     const [selValuta, setSelValuta] = useState(0);
+
     return (
         <div className='container'>
             <div className='row mt-2 text-center'>

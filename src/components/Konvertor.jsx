@@ -2,15 +2,13 @@ import React, { useState } from 'react'
 import ValutaPolje from './ValutaPolje'
 
 export default function Konvertor(props) {
-    const [vrednosti, setVrednosti] = useState(props.valute.map(element => element.vrednost));
+    const [vrednosti, setVrednosti] = useState(props.valute.map(element => 0));
 
     const promenaInputa = (index) => (e) => {
         const value = e.target.value;
         setVrednosti(props.valute.map((element, ind) => {
-            if (ind === index) {
-                return value;
-            }
-            return props.valute[ind].vrednost * value / props.valute[index].vrednost
+
+            return props.valute[index].vrednost * value / props.valute[ind].vrednost
         }))
     }
 
